@@ -1,0 +1,369 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url(/Gilroy-Medium.ttf) format(truetype);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family: "Gilroy";
+    scroll-behavior: smooth;
+}
+/*navbar styling*/
+.nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+}
+.nav-h1 span{
+    color: teal;
+}
+
+.nav-options{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    gap: 50px;
+    font-weight: 600;
+}
+.nav-options a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-options a:hover{
+    background-color: teal;
+    color: black;
+    border-bottom: 4px solid black;
+}
+.nav-options .home{
+    background-color: teal;
+    color: white;
+    padding: 5px;
+}
+
+.nav-btn button{
+    height: 40px;
+    width: 150px;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.nav-btn button:hover{
+    background-color: black;
+}
+
+/*hero section*/
+ .herosection{
+    height: 500px;
+    width: 100%;
+    display: flex;
+ }
+
+ .herosection-left{
+    height: 500px;
+    width: 50%;
+ }
+.herosection-left-para{
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.herosection-left-h1{
+    font-size: 25px;
+    color: teal;
+    padding-bottom: 5px;
+}
+.herosection-left-1{
+    padding-left: 50px;
+    padding-top: 150px;
+}
+ 
+ .herosection-left-btn button{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: teal;
+    font-weight: bolder ;
+    font-size: 18px;
+    cursor: pointer;
+ }
+ .herosection-left-btn a{
+    text-decoration: none;
+    color: teal;
+ }
+
+ .herosection-right{
+    height: 500px;
+    width: 50%;
+ }
+ .herosection-right-image img{
+    padding-top: 20px;
+    height: 500px;
+    width: 400px;
+
+ }
+ .herosection-right-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ /* about-me */
+ .about{
+    height: 600px;
+    width: 100%;
+    display: flex;
+ }
+ .about-left{
+    height: 500px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .about-left-image{
+    height: 400px;
+    width: 300px;
+    background-color: teal;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+ }
+ .about-left-image img{
+    height: 300px;
+
+ }
+ .about-left-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .about-right{
+    height: 500px;
+    width: 50%;
+ }
+ .about-right-h1{
+    padding-top: 50px;
+    padding-bottom: 10px;
+ }
+ .about-right-skills-experience{
+    display: flex;
+    padding-top: 20px;
+    gap: 40px;
+ }
+ .ar-child span{
+    font-size: 24px; 
+ }
+ .about-right-skills span{
+    color: teal;
+    border-bottom: 4px solid black;
+    font-size: 24px;
+ }
+ .about-right-skills span:hover{
+    border-bottom: 4px solid black;
+    color: teal;
+ }
+ 
+ .about-right-experience span:hover{
+    border-bottom: 4px solid black;
+    color: teal;
+ }
+ .about-right-skills-list{
+    padding-top: 10px;
+ }
+ .about-right-skills-list p{
+    padding-top: 5px;
+ }
+ .about-right-skills-list li{
+    padding-top: 10px;
+ }
+ 
+ .about-right-education-list li{
+    padding-top: 10px;
+ }
+ .education-child{
+    margin-top: 20px;
+ }
+
+ /* services */
+ .services{
+    height: 400px;
+    width: 100%;
+ }
+ .services-boxes{
+    height: 300px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+ }
+ .services-h1{
+    font-size: 30px;
+    margin-left: 30px;
+ }
+ .services-box-1{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    color: teal;
+    border-radius: 20px;
+    scale: 0.95;
+    transition: scale 1s 1s ease-in;
+ }
+ .services-box-1:hover{
+    scale: 1;
+ }
+ .apply{
+    padding: 10px;
+ }
+ 
+ .services-boxes i{
+    font-size: 40px;
+ }
+ .services-box-2{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    color: teal;
+    border-radius: 20px;
+    scale: 0.95;
+    transition: scale 1s 1s ease-in;
+ }
+ .services-box-2:hover{
+    scale: 1;
+ }
+ .services-box-3{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    color: teal;
+    border-radius: 20px;
+    scale: 0.95;
+    transition: scale 1s 1s ease-in;
+ }
+ .services-box-3:hover{
+    scale: 1;
+ }
+ .learn{
+    font-size: 20px;
+ }
+
+ /* projects */
+ .projects{
+   height: 500px;
+   width: 100%;
+ }
+ .projects-h1{
+   font-size: 30px;
+   margin-left: 30px;
+ }
+ .projects-boxes{
+   height: 400px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   padding: 10px 50px;
+ }
+ .projects-box{
+   height: 100%;
+   width: 33%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .projects-image{
+   height: 100%;
+   width: 90%;
+   border: 10px solid black;
+   transition: scale 1s 1s ease-in;
+ } 
+ .projects-image:hover{
+   border: 10px solid teal;
+   scale: 1.05;
+ }
+
+ /* contact */
+ .contact{
+   height: 500px;
+   width: 100%;
+   display: flex;
+ }
+ .contact-left{
+   padding-left: 30px;
+   height: 500px;
+   width: 35%;
+ }
+ 
+ .contact-left-h1{
+   font-size: 30px;
+   margin-top: 100px;
+ }
+ .contact-left-socialmedia{
+   display: flex;
+   gap: 40px;
+   margin-top: 10px;
+   font-size: 20px;
+ }
+ .download-btn button{
+   height: 50px;
+   width: 200px;
+   background-color: black;
+   color: teal;
+   margin-top: 20px;
+   font-size: 20px;
+   border: none;
+   border-radius: 10px;
+ }
+
+ .contact-right{
+   height: 500px;
+   width: 50%;
+   background-color: teal;
+ }
+ .input{
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+ }
+ .input input{
+   height: 40px;
+   width: 300px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   border-radius: 10px;
+   font-size: 20px;
+   border: 2px solid black;
+ }
+ textarea{
+   height: 100px;
+   width: 300px;
+   border: 2px solid black;
+   margin-top: 30px;
+   margin-bottom: 30px;
+ }
+ .submit-btn button{
+   height: 30px;
+   width: 100px;
+   border: none;
+ }
+
